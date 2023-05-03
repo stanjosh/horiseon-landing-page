@@ -1,0 +1,149 @@
+* {
+    box-sizing: border-box; /* makes the default box sizing border-box */
+    padding: 0; /* removes margins and padding from all objects by default */
+    margin: 0;
+}
+
+body {
+    background-color: #d9dcd6; /*background color od the body of the document */
+}
+
+.header {
+    padding: 20px; /* inner space around the header */
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: #2a607c;
+    color: #ffffff; /* header text color */
+}
+
+.header h1 {
+    display: inline-block; /*display the company logo at the top of the page */
+    font-size: 48px;
+}
+
+.header h1 .seo {
+    color: #d9dcd6; /* color the 'seo' in Horiseon */
+}
+
+.header div {
+    padding-top: 15px; /*inner top space before content*/
+    margin-right: 20px; /* right side outer space before edge */
+    float: right; /* next object appears to the right side instead of underneath */
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px; /* font size for text */
+}
+
+.header div ul {
+    list-style-type: none; /* styles the header links' list to not have any list decoration */
+}
+
+.header div ul li {
+    display: inline-block;   /* link display type and space around outside */
+    margin-left: 25px;
+}
+
+a {
+    color: #ffffff; /* link color */
+    text-decoration: none; /* removes underlines, other text decorations from links */
+}
+
+p {
+    font-size: 16px; /* sets the font size in paragraph text */
+}
+
+section {
+    display: flex;
+}
+
+.float-left {  /* sets parameters for objects to float to the left side of other content */
+    float: left;
+    margin-right: 25px;
+}
+
+.float-right { /* sets parameters for objects to float to the right side of other content */
+    float: right;
+    margin-left: 25px;
+}
+
+
+.main-image { /* sets a large image directly under the header */
+    height: 800px; /* height of main image */
+    width: 100%; 
+    margin-bottom: 25px; /*space after image before next item */
+    background-image: url("../images/digital-marketing-meeting.jpg"); /* img file */
+    background-size: cover; /* stretches the image to the proper size to cover the container it's in */
+    background-position: center; /* image is positioned at the center of its container */
+}
+
+.wrapper {  /*sizes the main content and allows it to wrap when shrunk */
+    margin-right: 20px;
+    margin-left: 20px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap-reverse;
+    gap: 10px;
+}
+
+.benefits-bar { /* sizes the side bar listing benefits provided */
+    flex: 1 0 375px; /* allows bar to grow wider when unwrapper for smaller divice display */
+    max-width: 375px;
+    padding: 20px; /*inner space between edges and content */
+    width: 100%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #2589bd;
+
+}
+
+.benefits-bar .item {
+    margin-bottom: 32px; /*space before next item */
+    color: #ffffff;
+}
+
+.benefits-bar .item h3 {
+    margin-bottom: 10px; /* space under title */
+    text-align: center;
+}
+
+.benefits-bar img {
+    display: block;
+    margin: 10px auto; /* image inner spacing*/
+    max-width: 150px;
+}
+
+.services-box { 
+    flex: 1 0 875px; /* allows bar to grow wider when unwrapper for smaller divice display */
+    max-width: 900px;
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.services-box .item {
+    margin-bottom: 20px; /* space before next item */
+    padding: 50px; /* space between edges and content */
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+
+.services-box .item img { /*image size in service block */
+    max-height: 200px;
+}
+
+.services-box h2 {    /* space under and size of title in service block */
+    margin-bottom: 20px;
+    font-size: 36px;
+
+}
+
+.footer {
+    padding: 30px; /*space between edges and content of footer element */
+    clear: both; /* no objects float beside */
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center; 
+}
+
+.footer h2 {
+    font-size: 20px; /*footer large text size */
+}
