@@ -20,7 +20,7 @@
 
 ## How to view
 
-> TODO add working github pages link
+[Horiseon Landing Page](https://stanjosh.github.io/horiseon-landing-page/horiseon-landing-page/)
 
 ### Credits
 
