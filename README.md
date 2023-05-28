@@ -9,11 +9,11 @@
 
 ## Screenshots
 
-![Horiseon Title](screenshot-2.png)
+![Horiseon Title](./assets/images/screenshot-2.png)
 
 *The landing page's title and navigation*
 
-![Horiseon Sections](screenshot-1.png)
+![Horiseon Sections](./assets/images/screenshot-1.png)
 
 *The landing page's section and aside*
 
@@ -28,4 +28,4 @@ Content originally provided by a student repository from UTA Code Bootcamp.
 
 ### License
 
-Everyone's granted use of the page through and MIT license.
+[MIT License](https://choosealicense.com/licenses/mit/)
